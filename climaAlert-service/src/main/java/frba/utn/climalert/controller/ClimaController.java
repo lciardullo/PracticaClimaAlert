@@ -1,6 +1,6 @@
 package frba.utn.climalert.controller;
 
-import frba.utn.climalert.domain.clima.Clima;
+import frba.utn.climalert.dto.clima.ClimaDto;
 import frba.utn.climalert.service.ClimaService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -17,12 +17,12 @@ public class ClimaController {
   }
 
   @GetMapping("/actual")
-  public Clima consultarClimaActual() {
-    return climaService.registrarClimaActual();
+  public ClimaDto consultarClimaActual() {
+    return ClimaDto.fromDomain(climaService.registrarClimaActual());
   }
 
   @PostMapping("/alerta")
-  public Clima consultarClimaYProcesarAlerta() {
-    return climaService.registrarClimaActualYNotificar();
+  public ClimaDto consultarClimaYProcesarAlerta() {
+    return ClimaDto.fromDomain(climaService.registrarClimaActualYNotificar());
   }
 }
