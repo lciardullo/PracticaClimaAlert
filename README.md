@@ -24,3 +24,7 @@ localmente para registro histórico y análisis posterior.
     ■ emergencias@clima.com
     ■ meteorologia@clima.com
 ○ El correo deberá incluir el detalle completo del clima.
+
+
+# IMPORTANTE
+Reutilice el notificador del tp anual ya que fue ideado para ser reutilizado.
