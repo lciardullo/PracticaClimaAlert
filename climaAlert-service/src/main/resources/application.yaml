@@ -9,6 +9,10 @@ spring:
 server:
   port: 8081
 
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+
 services:
   weather:
     base-url: ${WEATHER_API_URL:https://api.weatherapi.com/v1/current.json}

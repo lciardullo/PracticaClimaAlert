@@ -20,7 +20,14 @@ localmente para registro histórico y análisis posterior.
  Si se detectan condiciones críticas deberá generarse una alerta (ver siguiente punto).
 ## Notificación por correo electrónico
  Al generarse una alerta, el Sistema deberá enviar un correo a los siguientes destinatarios:
-    ■ admin@clima.com
-    ■ emergencias@clima.com
-    ■ meteorologia@clima.com
-○ El correo deberá incluir el detalle completo del clima.
+ - admin@clima.com
+ - emergencias@clima.com
+  - meteorologia@clima.com
+
+**El correo deberá incluir el detalle completo del clima.**
+
+## Diagrama de clases de climaAlert-service
+![img.png](img.png)
+
+## Documentacion API
+http://localhost:8081/swagger-ui.html
