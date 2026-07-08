@@ -1,0 +1,1184 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< frba.utn:notificaciones-service >-------------------
+[INFO] Building notificaciones-service 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:4.1.0:run (default-cli) > test-compile @ notificaciones-service >>>
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ notificaciones-service ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 3 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ notificaciones-service ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ notificaciones-service ---
+[INFO] skip non existing resourceDirectory C:\Users\Lucas\OneDrive\Escritorio\Repo\climAlert\notificaciones-service\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ notificaciones-service ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< spring-boot:4.1.0:run (default-cli) < test-compile @ notificaciones-service <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:4.1.0:run (default-cli) @ notificaciones-service ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-buildpack-platform/4.1.0/spring-boot-buildpack-platform-4.1.0.jar
+Progress (1): 0.9/333 kBProgress (1): 2.3/333 kBProgress (1): 3.6/333 kBProgress (1): 5.0/333 kBProgress (1): 6.4/333 kBProgress (1): 7.7/333 kBProgress (1): 9.1/333 kBProgress (1): 10/333 kB Progress (1): 12/333 kBProgress (1): 13/333 kBProgress (1): 15/333 kBProgress (1): 16/333 kBProgress (1): 17/333 kBProgress (1): 19/333 kBProgress (1): 20/333 kBProgress (1): 21/333 kBProgress (1): 22/333 kBProgress (1): 23/333 kBProgress (1): 25/333 kBProgress (1): 26/333 kBProgress (1): 28/333 kBProgress (1): 29/333 kBProgress (1): 30/333 kBProgress (1): 32/333 kBProgress (1): 33/333 kBProgress (1): 34/333 kBProgress (1): 36/333 kBProgress (1): 37/333 kBProgress (1): 39/333 kBProgress (1): 40/333 kBProgress (1): 41/333 kBProgress (1): 43/333 kBProgress (1): 44/333 kBProgress (1): 45/333 kBProgress (1): 47/333 kBProgress (1): 48/333 kBProgress (1): 49/333 kBProgress (1): 51/333 kBProgress (1): 52/333 kBProgress (1): 54/333 kBProgress (1): 55/333 kBProgress (1): 59/333 kBProgress (1): 63/333 kBProgress (1): 68/333 kBProgress (1): 72/333 kBProgress (1): 76/333 kBProgress (1): 80/333 kBProgress (1): 85/333 kBProgress (1): 89/333 kBProgress (1): 93/333 kBProgress (1): 97/333 kBProgress (1): 101/333 kBProgress (1): 106/333 kBProgress (1): 110/333 kBProgress (1): 112/333 kBProgress (1): 116/333 kBProgress (1): 121/333 kBProgress (1): 125/333 kBProgress (1): 129/333 kBProgress (1): 133/333 kBProgress (1): 138/333 kBProgress (1): 142/333 kBProgress (1): 146/333 kBProgress (1): 150/333 kBProgress (1): 155/333 kBProgress (1): 159/333 kBProgress (1): 163/333 kBProgress (1): 167/333 kBProgress (1): 171/333 kBProgress (1): 176/333 kBProgress (1): 178/333 kBProgress (1): 182/333 kBProgress (1): 186/333 kBProgress (1): 190/333 kBProgress (1): 195/333 kBProgress (1): 199/333 kBProgress (1): 203/333 kBProgress (1): 207/333 kBProgress (1): 212/333 kBProgress (1): 216/333 kBProgress (1): 220/333 kBProgress (1): 236/333 kBProgress (1): 253/333 kBProgress (1): 269/333 kBProgress (1): 286/333 kBProgress (1): 302/333 kBProgress (1): 309/333 kBProgress (1): 325/333 kBProgress (1): 333 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-buildpack-platform/4.1.0/spring-boot-buildpack-platform-4.1.0.jar (333 kB at 1.1 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.4/httpcore5-5.4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.4/httpcore5-h2-5.4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-loader-tools/4.1.0/spring-boot-loader-tools-4.1.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.16.6/micrometer-observation-1.16.6.jar
+Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.16.6/micrometer-commons-1.16.6.jar
+Progress (1): 7.7/953 kBProgress (1): 8.2/953 kBProgress (1): 25/953 kB Progress (1): 41/953 kBProgress (1): 57/953 kBProgress (1): 74/953 kBProgress (1): 90/953 kBProgress (1): 106/953 kBProgress (1): 123/953 kBProgress (1): 139/953 kBProgress (1): 156/953 kBProgress (1): 172/953 kBProgress (1): 188/953 kBProgress (1): 205/953 kBProgress (1): 221/953 kBProgress (1): 238/953 kBProgress (1): 254/953 kBProgress (1): 262/953 kBProgress (1): 279/953 kBProgress (1): 295/953 kBProgress (1): 311/953 kBProgress (1): 328/953 kBProgress (1): 344/953 kBProgress (1): 360/953 kBProgress (1): 377/953 kBProgress (1): 393/953 kBProgress (1): 410/953 kBProgress (1): 426/953 kBProgress (1): 442/953 kBProgress (1): 459/953 kBProgress (1): 475/953 kBProgress (1): 481/953 kBProgress (1): 498/953 kBProgress (1): 514/953 kBProgress (1): 531/953 kBProgress (1): 547/953 kBProgress (1): 563/953 kBProgress (1): 580/953 kBProgress (1): 596/953 kBProgress (1): 612/953 kBProgress (1): 629/953 kBProgress (1): 645/953 kBProgress (1): 662/953 kBProgress (1): 678/953 kBProgress (1): 694/953 kBProgress (1): 711/953 kBProgress (1): 727/953 kBProgress (1): 744/953 kBProgress (1): 760/953 kBProgress (1): 776/953 kBProgress (1): 793/953 kBProgress (1): 809/953 kBProgress (1): 825/953 kBProgress (1): 842/953 kBProgress (1): 858/953 kBProgress (1): 875/953 kBProgress (1): 891/953 kBProgress (1): 907/953 kBProgress (1): 924/953 kBProgress (1): 940/953 kBProgress (1): 953 kB    Progress (2): 953 kB | 0.9/263 kBProgress (2): 953 kB | 2.3/263 kBProgress (2): 953 kB | 3.6/263 kBProgress (2): 953 kB | 5.0/263 kBProgress (2): 953 kB | 6.4/263 kBProgress (2): 953 kB | 7.7/263 kBProgress (2): 953 kB | 9.1/263 kBProgress (2): 953 kB | 10/263 kB Progress (2): 953 kB | 12/263 kBProgress (2): 953 kB | 13/263 kBProgress (2): 953 kB | 15/263 kBProgress (2): 953 kB | 16/263 kBProgress (2): 953 kB | 17/263 kBProgress (2): 953 kB | 19/263 kBProgress (2): 953 kB | 20/263 kBProgress (2): 953 kB | 21/263 kBProgress (2): 953 kB | 23/263 kBProgress (2): 953 kB | 24/263 kBProgress (2): 953 kB | 26/263 kBProgress (2): 953 kB | 27/263 kBProgress (2): 953 kB | 28/263 kBProgress (2): 953 kB | 30/263 kBProgress (2): 953 kB | 31/263 kBProgress (2): 953 kB | 32/263 kBProgress (2): 953 kB | 34/263 kBProgress (2): 953 kB | 35/263 kBProgress (2): 953 kB | 36/263 kBProgress (2): 953 kB | 38/263 kBProgress (2): 953 kB | 39/263 kBProgress (2): 953 kB | 41/263 kBProgress (2): 953 kB | 42/263 kBProgress (2): 953 kB | 43/263 kBProgress (2): 953 kB | 45/263 kBProgress (2): 953 kB | 46/263 kBProgress (2): 953 kB | 47/263 kBProgress (2): 953 kB | 49/263 kBProgress (2): 953 kB | 50/263 kBProgress (2): 953 kB | 52/263 kBProgress (2): 953 kB | 53/263 kBProgress (2): 953 kB | 54/263 kBProgress (2): 953 kB | 56/263 kBProgress (2): 953 kB | 57/263 kB                                Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.4/httpcore5-5.4.jar (953 kB at 16 MB/s)
+Progress (1): 61/263 kBProgress (1): 65/263 kBProgress (2): 65/263 kB | 0.9/342 kBProgress (2): 65/263 kB | 2.3/342 kBProgress (2): 65/263 kB | 3.6/342 kBProgress (2): 65/263 kB | 5.0/342 kBProgress (2): 65/263 kB | 6.4/342 kBProgress (2): 65/263 kB | 7.7/342 kBProgress (2): 65/263 kB | 9.1/342 kBProgress (2): 65/263 kB | 10/342 kB Progress (2): 70/263 kB | 10/342 kBProgress (2): 70/263 kB | 12/342 kBProgress (2): 70/263 kB | 13/342 kBProgress (2): 70/263 kB | 15/342 kBProgress (2): 70/263 kB | 16/342 kBProgress (2): 70/263 kB | 17/342 kBProgress (2): 70/263 kB | 19/342 kBProgress (2): 74/263 kB | 19/342 kBProgress (2): 74/263 kB | 20/342 kBProgress (2): 74/263 kB | 21/342 kBProgress (2): 74/263 kB | 23/342 kBProgress (2): 78/263 kB | 23/342 kBProgress (2): 78/263 kB | 24/342 kBProgress (2): 82/263 kB | 24/342 kBProgress (2): 82/263 kB | 25/342 kBProgress (2): 82/263 kB | 27/342 kBProgress (2): 86/263 kB | 27/342 kBProgress (2): 86/263 kB | 28/342 kBProgress (2): 86/263 kB | 30/342 kBProgress (2): 91/263 kB | 30/342 kBProgress (2): 91/263 kB | 31/342 kBProgress (2): 95/263 kB | 31/342 kBProgress (2): 95/263 kB | 32/342 kBProgress (2): 95/263 kB | 34/342 kBProgress (2): 95/263 kB | 35/342 kBProgress (2): 99/263 kB | 35/342 kBProgress (2): 99/263 kB | 36/342 kBProgress (2): 99/263 kB | 38/342 kBProgress (2): 103/263 kB | 38/342 kBProgress (2): 103/263 kB | 39/342 kBProgress (2): 103/263 kB | 41/342 kBProgress (2): 108/263 kB | 41/342 kBProgress (2): 108/263 kB | 42/342 kBProgress (2): 108/263 kB | 43/342 kBProgress (2): 112/263 kB | 43/342 kBProgress (2): 112/263 kB | 45/342 kBProgress (2): 112/263 kB | 46/342 kBProgress (2): 116/263 kB | 46/342 kBProgress (2): 116/263 kB | 47/342 kBProgress (2): 120/263 kB | 47/342 kBProgress (2): 120/263 kB | 49/342 kBProgress (2): 120/263 kB | 50/342 kBProgress (2): 120/263 kB | 51/342 kBProgress (2): 125/263 kB | 51/342 kBProgress (2): 125/263 kB | 53/342 kBProgress (2): 125/263 kB | 54/342 kBProgress (2): 129/263 kB | 54/342 kBProgress (2): 129/263 kB | 56/342 kBProgress (2): 133/263 kB | 56/342 kBProgress (2): 133/263 kB | 60/342 kBProgress (2): 137/263 kB | 60/342 kBProgress (2): 137/263 kB | 64/342 kBProgress (2): 141/263 kB | 64/342 kBProgress (2): 141/263 kB | 68/342 kBProgress (2): 146/263 kB | 68/342 kBProgress (2): 150/263 kB | 68/342 kBProgress (2): 150/263 kB | 73/342 kBProgress (2): 154/263 kB | 73/342 kBProgress (2): 154/263 kB | 77/342 kBProgress (2): 158/263 kB | 77/342 kBProgress (2): 158/263 kB | 81/342 kBProgress (2): 163/263 kB | 81/342 kBProgress (2): 163/263 kB | 85/342 kBProgress (2): 167/263 kB | 85/342 kBProgress (2): 167/263 kB | 89/342 kBProgress (2): 171/263 kB | 89/342 kBProgress (2): 171/263 kB | 94/342 kBProgress (2): 175/263 kB | 94/342 kBProgress (2): 175/263 kB | 98/342 kBProgress (2): 180/263 kB | 98/342 kBProgress (2): 180/263 kB | 102/342 kBProgress (2): 184/263 kB | 102/342 kBProgress (2): 188/263 kB | 102/342 kBProgress (2): 188/263 kB | 106/342 kBProgress (2): 188/263 kB | 111/342 kBProgress (2): 188/263 kB | 115/342 kBProgress (2): 188/263 kB | 119/342 kBProgress (2): 192/263 kB | 119/342 kBProgress (3): 192/263 kB | 119/342 kB | 0.9/52 kBProgress (3): 192/263 kB | 119/342 kB | 2.3/52 kBProgress (3): 192/263 kB | 123/342 kB | 2.3/52 kBProgress (3): 196/263 kB | 123/342 kB | 2.3/52 kBProgress (3): 196/263 kB | 123/342 kB | 3.6/52 kBProgress (3): 196/263 kB | 123/342 kB | 5.0/52 kBProgress (3): 196/263 kB | 127/342 kB | 5.0/52 kBProgress (3): 201/263 kB | 127/342 kB | 5.0/52 kBProgress (3): 201/263 kB | 127/342 kB | 6.4/52 kBProgress (3): 201/263 kB | 127/342 kB | 7.7/52 kBProgress (3): 201/263 kB | 132/342 kB | 7.7/52 kBProgress (3): 205/263 kB | 132/342 kB | 7.7/52 kBProgress (3): 205/263 kB | 132/342 kB | 9.1/52 kBProgress (3): 205/263 kB | 132/342 kB | 10/52 kB Progress (3): 205/263 kB | 132/342 kB | 12/52 kBProgress (3): 205/263 kB | 136/342 kB | 12/52 kBProgress (3): 209/263 kB | 136/342 kB | 12/52 kBProgress (3): 209/263 kB | 136/342 kB | 13/52 kBProgress (3): 209/263 kB | 136/342 kB | 15/52 kBProgress (3): 209/263 kB | 140/342 kB | 15/52 kBProgress (3): 213/263 kB | 140/342 kB | 15/52 kBProgress (3): 213/263 kB | 140/342 kB | 16/52 kBProgress (3): 213/263 kB | 144/342 kB | 16/52 kBProgress (3): 218/263 kB | 144/342 kB | 16/52 kBProgress (3): 218/263 kB | 144/342 kB | 17/52 kBProgress (3): 218/263 kB | 144/342 kB | 19/52 kBProgress (3): 222/263 kB | 144/342 kB | 19/52 kBProgress (3): 222/263 kB | 149/342 kB | 19/52 kBProgress (3): 222/263 kB | 149/342 kB | 20/52 kBProgress (3): 222/263 kB | 149/342 kB | 21/52 kBProgress (3): 222/263 kB | 149/342 kB | 23/52 kBProgress (3): 222/263 kB | 153/342 kB | 23/52 kBProgress (3): 222/263 kB | 153/342 kB | 24/52 kBProgress (3): 222/263 kB | 153/342 kB | 25/52 kBProgress (3): 222/263 kB | 155/342 kB | 25/52 kBProgress (3): 222/263 kB | 155/342 kB | 27/52 kBProgress (3): 222/263 kB | 155/342 kB | 28/52 kBProgress (3): 222/263 kB | 155/342 kB | 30/52 kBProgress (3): 222/263 kB | 155/342 kB | 31/52 kBProgress (3): 222/263 kB | 159/342 kB | 31/52 kBProgress (3): 222/263 kB | 159/342 kB | 32/52 kBProgress (3): 222/263 kB | 159/342 kB | 34/52 kBProgress (3): 222/263 kB | 164/342 kB | 34/52 kBProgress (3): 222/263 kB | 164/342 kB | 35/52 kBProgress (3): 238/263 kB | 164/342 kB | 35/52 kBProgress (3): 238/263 kB | 168/342 kB | 35/52 kBProgress (3): 238/263 kB | 168/342 kB | 36/52 kBProgress (3): 238/263 kB | 168/342 kB | 38/52 kBProgress (3): 238/263 kB | 172/342 kB | 38/52 kBProgress (3): 238/263 kB | 172/342 kB | 39/52 kBProgress (3): 238/263 kB | 172/342 kB | 41/52 kBProgress (3): 238/263 kB | 176/342 kB | 41/52 kBProgress (3): 238/263 kB | 176/342 kB | 42/52 kBProgress (3): 238/263 kB | 176/342 kB | 43/52 kBProgress (3): 255/263 kB | 176/342 kB | 43/52 kBProgress (3): 255/263 kB | 181/342 kB | 43/52 kBProgress (3): 255/263 kB | 181/342 kB | 45/52 kBProgress (3): 255/263 kB | 181/342 kB | 46/52 kBProgress (3): 255/263 kB | 181/342 kB | 47/52 kBProgress (3): 255/263 kB | 181/342 kB | 49/52 kBProgress (3): 255/263 kB | 181/342 kB | 50/52 kBProgress (3): 255/263 kB | 181/342 kB | 51/52 kBProgress (3): 255/263 kB | 181/342 kB | 52 kB   Progress (3): 263 kB | 181/342 kB | 52 kB    Progress (3): 263 kB | 185/342 kB | 52 kBProgress (3): 263 kB | 189/342 kB | 52 kBProgress (3): 263 kB | 193/342 kB | 52 kBProgress (3): 263 kB | 197/342 kB | 52 kBProgress (3): 263 kB | 202/342 kB | 52 kBProgress (3): 263 kB | 206/342 kB | 52 kBProgress (3): 263 kB | 210/342 kB | 52 kBProgress (3): 263 kB | 214/342 kB | 52 kBProgress (3): 263 kB | 219/342 kB | 52 kBProgress (3): 263 kB | 223/342 kB | 52 kBProgress (3): 263 kB | 239/342 kB | 52 kBProgress (3): 263 kB | 256/342 kB | 52 kBProgress (3): 263 kB | 272/342 kB | 52 kBProgress (3): 263 kB | 286/342 kB | 52 kBProgress (3): 263 kB | 303/342 kB | 52 kBProgress (3): 263 kB | 319/342 kB | 52 kBProgress (3): 263 kB | 335/342 kB | 52 kBProgress (3): 263 kB | 342 kB | 52 kB    Progress (4): 263 kB | 342 kB | 52 kB | 0.9/84 kBProgress (4): 263 kB | 342 kB | 52 kB | 2.3/84 kBProgress (4): 263 kB | 342 kB | 52 kB | 3.6/84 kBProgress (4): 263 kB | 342 kB | 52 kB | 5.0/84 kBProgress (4): 263 kB | 342 kB | 52 kB | 6.4/84 kBProgress (4): 263 kB | 342 kB | 52 kB | 7.7/84 kBProgress (4): 263 kB | 342 kB | 52 kB | 9.1/84 kBProgress (4): 263 kB | 342 kB | 52 kB | 10/84 kB Progress (4): 263 kB | 342 kB | 52 kB | 12/84 kBProgress (4): 263 kB | 342 kB | 52 kB | 13/84 kBProgress (4): 263 kB | 342 kB | 52 kB | 15/84 kBProgress (4): 263 kB | 342 kB | 52 kB | 16/84 kBProgress (4): 263 kB | 342 kB | 52 kB | 17/84 kBProgress (4): 263 kB | 342 kB | 52 kB | 19/84 kBProgress (4): 263 kB | 342 kB | 52 kB | 20/84 kBProgress (4): 263 kB | 342 kB | 52 kB | 21/84 kBProgress (4): 263 kB | 342 kB | 52 kB | 23/84 kB                                                Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.16.6/micrometer-commons-1.16.6.jar (52 kB at 595 kB/s)
+Progress (3): 263 kB | 342 kB | 24/84 kBProgress (3): 263 kB | 342 kB | 26/84 kBProgress (3): 263 kB | 342 kB | 27/84 kBProgress (3): 263 kB | 342 kB | 28/84 kB                                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.4/httpcore5-h2-5.4.jar (263 kB at 3.0 MB/s)
+Progress (2): 342 kB | 30/84 kBProgress (2): 342 kB | 31/84 kBProgress (2): 342 kB | 32/84 kBProgress (2): 342 kB | 34/84 kBProgress (2): 342 kB | 35/84 kBProgress (2): 342 kB | 36/84 kBProgress (2): 342 kB | 38/84 kBProgress (2): 342 kB | 39/84 kBProgress (2): 342 kB | 41/84 kBProgress (2): 342 kB | 42/84 kBProgress (2): 342 kB | 43/84 kBProgress (2): 342 kB | 45/84 kBProgress (2): 342 kB | 46/84 kBProgress (2): 342 kB | 47/84 kBProgress (2): 342 kB | 49/84 kBProgress (2): 342 kB | 50/84 kBProgress (2): 342 kB | 52/84 kBProgress (2): 342 kB | 53/84 kBProgress (2): 342 kB | 54/84 kBProgress (2): 342 kB | 56/84 kBProgress (2): 342 kB | 60/84 kBProgress (2): 342 kB | 64/84 kBProgress (2): 342 kB | 68/84 kBProgress (2): 342 kB | 73/84 kBProgress (2): 342 kB | 77/84 kBProgress (2): 342 kB | 81/84 kBProgress (2): 342 kB | 84 kB                               Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-loader-tools/4.1.0/spring-boot-loader-tools-4.1.0.jar (342 kB at 3.7 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.16.6/micrometer-observation-1.16.6.jar (84 kB at 902 kB/s)
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.0)
+
+2026-07-07T22:28:53.080-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] a.e.utn.frba.NotificacionesApplication   : Starting NotificacionesApplication using Java 21.0.9 with PID 6084 (C:\Users\Lucas\OneDrive\Escritorio\Repo\climAlert\notificaciones-service\target\classes started by Lucas in C:\Users\Lucas\OneDrive\Escritorio\Repo\climAlert\notificaciones-service)
+2026-07-07T22:28:53.082-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] a.e.utn.frba.NotificacionesApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-07-07T22:28:53.111-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-07-07T22:28:53.111-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-07-07T22:28:53.796-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-07T22:28:53.805-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-07T22:28:53.805-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-07T22:28:53.847-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 736 ms
+2026-07-07T22:28:54.313-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-07T22:28:54.316-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:28:54.324-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.s.a.r.l.SimpleMessageListenerContainer : Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:28:54.328-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:28:54.329-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:60) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:629) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:746) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:256) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2239) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2211) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2191) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:472) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:456) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1972) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1935) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1602) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1400) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:690) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[na:na]
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:61) ~[amqp-client-5.30.0.jar:5.30.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1355) ~[amqp-client-5.30.0.jar:5.30.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1297) ~[amqp-client-5.30.0.jar:5.30.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:676) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:644) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:590) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	... 12 common frames omitted
+
+2026-07-07T22:28:54.334-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:28:54.334-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:28:54.334-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.s.a.r.l.SimpleMessageListenerContainer : Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:28:54.335-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:28:54.336-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#1-1] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:60) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:629) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:746) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:256) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2239) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2211) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2191) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:472) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:456) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1972) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1935) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1602) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1400) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:690) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[na:na]
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:61) ~[amqp-client-5.30.0.jar:5.30.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1355) ~[amqp-client-5.30.0.jar:5.30.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1297) ~[amqp-client-5.30.0.jar:5.30.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:676) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:644) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:590) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	... 12 common frames omitted
+
+2026-07-07T22:28:54.337-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:28:54.337-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:28:54.337-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.s.a.r.l.SimpleMessageListenerContainer : Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:28:54.338-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:28:54.339-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#2-1] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:60) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:629) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:746) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:256) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2239) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2211) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2191) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:472) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:456) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1972) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1935) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1602) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1400) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:690) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[na:na]
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:61) ~[amqp-client-5.30.0.jar:5.30.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1355) ~[amqp-client-5.30.0.jar:5.30.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1297) ~[amqp-client-5.30.0.jar:5.30.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:676) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:644) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:590) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	... 12 common frames omitted
+
+2026-07-07T22:28:54.340-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:28:54.354-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:28:54.355-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.s.a.r.l.SimpleMessageListenerContainer : Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:28:54.355-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:28:54.355-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#3-1] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:60) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:629) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:746) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:256) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2239) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2211) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2191) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:472) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:456) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1972) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1935) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1602) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1400) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:690) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[na:na]
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:61) ~[amqp-client-5.30.0.jar:5.30.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1355) ~[amqp-client-5.30.0.jar:5.30.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1297) ~[amqp-client-5.30.0.jar:5.30.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:676) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:644) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:590) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	... 12 common frames omitted
+
+2026-07-07T22:28:54.357-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:28:54.358-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:28:54.358-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.s.a.r.l.SimpleMessageListenerContainer : Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:28:54.359-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:28:54.359-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#4-1] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:60) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:629) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:746) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:256) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2239) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2211) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2191) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:472) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:456) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1972) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1935) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1602) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1400) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:690) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[na:na]
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:61) ~[amqp-client-5.30.0.jar:5.30.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1355) ~[amqp-client-5.30.0.jar:5.30.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1297) ~[amqp-client-5.30.0.jar:5.30.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:676) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:644) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:590) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	... 12 common frames omitted
+
+2026-07-07T22:28:54.360-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:28:54.385-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:28:54.386-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.s.a.r.l.SimpleMessageListenerContainer : Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:28:54.386-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:28:54.416-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#5-1] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:60) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:629) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:746) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:256) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2239) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2211) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2191) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:472) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:456) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1972) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1935) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1602) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1400) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:690) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[na:na]
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:61) ~[amqp-client-5.30.0.jar:5.30.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1355) ~[amqp-client-5.30.0.jar:5.30.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1297) ~[amqp-client-5.30.0.jar:5.30.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:676) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:644) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:590) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	... 12 common frames omitted
+
+2026-07-07T22:28:54.417-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:28:54.422-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] a.e.utn.frba.NotificacionesApplication   : Started NotificacionesApplication in 1.619 seconds (process running for 1.985)
+2026-07-07T22:28:54.423-03:00  WARN 6084 --- [notificaciones-service] [  restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-07-07T22:28:54.423-03:00  WARN 6084 --- [notificaciones-service] [  restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-07-07T22:28:59.425-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:28:59.425-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#1-1] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:28:59.428-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-1] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@4a55ae67: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:28:59.428-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@66ed6be4: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:28:59.429-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-2] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:28:59.456-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#2-1] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:28:59.456-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#3-1] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:28:59.456-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:28:59.456-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-2] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:28:59.456-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-1] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@1ef689bf: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:28:59.456-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-1] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@1fda441a: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:28:59.457-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:28:59.457-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-2] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:28:59.472-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#4-1] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:28:59.472-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-1] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@56eeafd9: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:28:59.472-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-2] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:28:59.472-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#3-2] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:28:59.472-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-2] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:28:59.473-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#2-2] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:28:59.473-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-2] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:28:59.474-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-2] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:28:59.474-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#4-2] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:28:59.474-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-2] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:28:59.475-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-2] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:28:59.489-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-2] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:28:59.505-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#5-1] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:28:59.505-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-1] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@3c3aaae8: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:28:59.506-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-2] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:28:59.521-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#5-2] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:28:59.521-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-2] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:04.579-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:04.579-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#3-2] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:04.579-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@668a2b4f: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:04.579-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:04.579-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-2] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@6c8192d1: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:04.579-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@1d5ce1c4: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:04.580-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-3] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:04.580-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#1-3] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:04.580-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-3] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:04.581-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#3-3] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:04.581-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-3] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:04.594-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#4-2] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:04.594-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#2-2] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:04.594-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#0-3] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:04.594-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-3] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:04.594-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-2] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@797c1bb1: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:04.594-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-2] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@3e2e8532: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:04.625-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-3] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:04.641-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#5-2] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:04.641-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-2] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@6f8f3f5f: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:04.657-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-3] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:04.672-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-3] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:04.673-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#4-3] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:04.673-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-3] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:04.687-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#2-3] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:04.687-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-3] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:04.703-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-3] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:04.703-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#5-3] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:04.703-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-3] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:04.719-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-3] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:09.736-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#1-3] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:09.736-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-3] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@19f87e20: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:09.737-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-4] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:09.752-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#1-4] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:09.752-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-4] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:09.768-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#3-3] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:09.768-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-3] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@4125ae55: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:09.768-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-4] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:09.768-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#3-4] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:09.769-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-4] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:09.783-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#0-3] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:09.783-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-3] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@41e469c3: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:09.784-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-4] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:09.784-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#0-4] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:09.784-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-4] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:09.814-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#4-3] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:09.814-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-3] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@2387d38c: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:09.815-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-4] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:09.829-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#5-3] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:09.829-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#2-3] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:09.829-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#4-4] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:09.829-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-3] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@5876337b: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:09.829-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-3] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@76fc0895: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:09.829-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-4] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:09.830-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-4] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:09.831-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-4] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:09.831-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#5-4] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:09.845-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#2-4] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:09.845-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-4] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:09.861-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-4] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:14.873-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#1-4] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:14.873-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-4] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@34661ec9: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:14.873-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-5] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:14.890-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#3-4] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:14.890-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#1-5] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:14.890-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-4] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@37cf8d21: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:14.890-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-5] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:14.905-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#0-4] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:14.905-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-5] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:14.905-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-4] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@32def184: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:14.921-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#3-5] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:14.921-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-5] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:14.921-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#0-5] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:14.921-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-5] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:14.922-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-5] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:14.937-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#4-4] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:14.937-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-4] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@4cf8b13e: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:14.938-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-5] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:14.952-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#4-5] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:14.952-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-5] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:14.968-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#5-4] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:14.968-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-4] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@5dde7fca: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:14.968-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-5] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:14.983-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#2-4] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:14.983-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#5-5] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:14.983-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-4] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@59d6983d: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:14.983-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-5] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:15.000-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-5] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:15.015-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#2-5] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:15.015-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-5] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:19.989-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#1-5] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:19.989-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-5] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@2fa0d0c3: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:19.990-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-6] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:20.004-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#0-5] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:20.004-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#3-5] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:20.004-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-5] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@5676d40d: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:20.004-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#1-6] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:20.004-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-5] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@8e15a45: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:20.004-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-6] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:20.005-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-6] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:20.005-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#3-6] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:20.005-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-6] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:20.020-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-6] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:20.020-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#0-6] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:20.035-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#4-5] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:20.035-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-5] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@4e732135: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:20.050-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-6] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:20.082-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#5-5] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:20.082-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-6] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:20.082-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-5] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@3c09e514: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:20.097-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#4-6] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:20.097-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-6] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:20.098-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#5-6] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:20.098-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-6] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:20.098-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-6] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:20.113-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#2-5] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:20.113-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-5] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@72296cc0: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:20.114-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-6] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:20.128-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#2-6] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:20.128-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-6] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:21.627-03:00  INFO 6084 --- [notificaciones-service] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2026-07-07T22:29:21.631-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-7] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2026-07-07T22:29:21.631-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-7] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2026-07-07T22:29:21.631-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-7] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2026-07-07T22:29:21.631-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-7] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2026-07-07T22:29:21.631-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-7] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2026-07-07T22:29:21.631-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-7] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2026-07-07T22:29:21.631-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-7] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2026-07-07T22:29:21.631-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-7] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2026-07-07T22:29:21.631-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-7] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2026-07-07T22:29:21.632-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-7] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2026-07-07T22:29:21.632-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-7] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2026-07-07T22:29:21.632-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-7] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2026-07-07T22:29:21.634-03:00  INFO 6084 --- [notificaciones-service] [       Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-07T22:29:21.637-03:00  INFO 6084 --- [notificaciones-service] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.0)
+
+2026-07-07T22:29:21.708-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] a.e.utn.frba.NotificacionesApplication   : Starting NotificacionesApplication using Java 21.0.9 with PID 6084 (C:\Users\Lucas\OneDrive\Escritorio\Repo\climAlert\notificaciones-service\target\classes started by Lucas in C:\Users\Lucas\OneDrive\Escritorio\Repo\climAlert\notificaciones-service)
+2026-07-07T22:29:21.708-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] a.e.utn.frba.NotificacionesApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-07-07T22:29:21.898-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-07T22:29:21.899-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-07T22:29:21.899-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-07T22:29:21.927-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 216 ms
+2026-07-07T22:29:22.020-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-07T22:29:22.020-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:22.021-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.s.a.r.l.SimpleMessageListenerContainer : Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:22.022-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:22.022-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:60) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:629) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:746) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:256) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2239) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2211) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2191) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:472) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:456) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1972) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1935) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1602) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1400) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:690) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[na:na]
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:61) ~[amqp-client-5.30.0.jar:5.30.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1355) ~[amqp-client-5.30.0.jar:5.30.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1297) ~[amqp-client-5.30.0.jar:5.30.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:676) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:644) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:590) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	... 12 common frames omitted
+
+2026-07-07T22:29:22.023-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:22.048-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:22.063-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.s.a.r.l.SimpleMessageListenerContainer : Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:22.064-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:22.079-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#1-1] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:60) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:629) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:746) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:256) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2239) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2211) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2191) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:472) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:456) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1972) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1935) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1602) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1400) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:690) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[na:na]
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:61) ~[amqp-client-5.30.0.jar:5.30.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1355) ~[amqp-client-5.30.0.jar:5.30.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1297) ~[amqp-client-5.30.0.jar:5.30.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:676) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:644) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:590) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	... 12 common frames omitted
+
+2026-07-07T22:29:22.080-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:22.081-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:22.082-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.s.a.r.l.SimpleMessageListenerContainer : Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:22.082-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:22.084-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#2-1] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:60) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:629) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:746) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:256) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2239) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2211) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2191) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:472) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:456) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1972) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1935) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1602) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1400) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:690) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[na:na]
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:61) ~[amqp-client-5.30.0.jar:5.30.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1355) ~[amqp-client-5.30.0.jar:5.30.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1297) ~[amqp-client-5.30.0.jar:5.30.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:676) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:644) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:590) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	... 12 common frames omitted
+
+2026-07-07T22:29:22.085-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:22.095-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:22.111-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.s.a.r.l.SimpleMessageListenerContainer : Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:22.112-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:22.113-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#3-1] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:60) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:629) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:746) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:256) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2239) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2211) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2191) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:472) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:456) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1972) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1935) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1602) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1400) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:690) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[na:na]
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:61) ~[amqp-client-5.30.0.jar:5.30.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1355) ~[amqp-client-5.30.0.jar:5.30.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1297) ~[amqp-client-5.30.0.jar:5.30.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:676) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:644) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:590) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	... 12 common frames omitted
+
+2026-07-07T22:29:22.114-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:22.114-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:22.115-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.s.a.r.l.SimpleMessageListenerContainer : Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:22.115-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:22.127-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#4-1] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:60) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:629) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:746) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:256) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2239) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2211) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2191) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:472) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:456) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1972) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1935) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1602) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1400) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:690) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[na:na]
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:61) ~[amqp-client-5.30.0.jar:5.30.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1355) ~[amqp-client-5.30.0.jar:5.30.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1297) ~[amqp-client-5.30.0.jar:5.30.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:676) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:644) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:590) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	... 12 common frames omitted
+
+2026-07-07T22:29:22.128-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:22.129-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:22.130-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.s.a.r.l.SimpleMessageListenerContainer : Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:22.131-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:22.143-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#5-1] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:60) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:629) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:746) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:256) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2239) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2211) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2191) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:472) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:456) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1972) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1935) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1602) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1400) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:690) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[na:na]
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:61) ~[amqp-client-5.30.0.jar:5.30.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1355) ~[amqp-client-5.30.0.jar:5.30.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1297) ~[amqp-client-5.30.0.jar:5.30.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:676) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:644) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:590) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	... 12 common frames omitted
+
+2026-07-07T22:29:22.144-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:22.147-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] a.e.utn.frba.NotificacionesApplication   : Started NotificacionesApplication in 0.463 seconds (process running for 29.71)
+2026-07-07T22:29:22.147-03:00  WARN 6084 --- [notificaciones-service] [  restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-07-07T22:29:22.148-03:00  WARN 6084 --- [notificaciones-service] [  restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-07-07T22:29:22.148-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-07T22:29:23.471-03:00  INFO 6084 --- [notificaciones-service] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 32 class path changes (0 additions, 0 deletions, 32 modifications)
+2026-07-07T22:29:23.473-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2026-07-07T22:29:23.473-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2026-07-07T22:29:23.473-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2026-07-07T22:29:23.473-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2026-07-07T22:29:23.473-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2026-07-07T22:29:23.473-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2026-07-07T22:29:23.473-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2026-07-07T22:29:23.473-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2026-07-07T22:29:23.473-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2026-07-07T22:29:23.473-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2026-07-07T22:29:23.474-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2026-07-07T22:29:23.474-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2026-07-07T22:29:23.474-03:00  INFO 6084 --- [notificaciones-service] [       Thread-5] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-07T22:29:23.476-03:00  INFO 6084 --- [notificaciones-service] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.0)
+
+2026-07-07T22:29:23.533-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] a.e.utn.frba.NotificacionesApplication   : Starting NotificacionesApplication using Java 21.0.9 with PID 6084 (C:\Users\Lucas\OneDrive\Escritorio\Repo\climAlert\notificaciones-service\target\classes started by Lucas in C:\Users\Lucas\OneDrive\Escritorio\Repo\climAlert\notificaciones-service)
+2026-07-07T22:29:23.534-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] a.e.utn.frba.NotificacionesApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-07-07T22:29:23.696-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-07T22:29:23.697-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-07T22:29:23.697-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-07T22:29:23.726-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 191 ms
+2026-07-07T22:29:23.805-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-07T22:29:23.805-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:23.831-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.s.a.r.l.SimpleMessageListenerContainer : Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:23.832-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:23.846-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:60) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:629) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:746) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:256) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2239) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2211) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2191) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:472) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:456) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1972) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1935) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1602) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1400) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:690) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[na:na]
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:61) ~[amqp-client-5.30.0.jar:5.30.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1355) ~[amqp-client-5.30.0.jar:5.30.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1297) ~[amqp-client-5.30.0.jar:5.30.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:676) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:644) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:590) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	... 12 common frames omitted
+
+2026-07-07T22:29:23.847-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:23.848-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:23.848-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.s.a.r.l.SimpleMessageListenerContainer : Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:23.850-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:23.850-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#1-1] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:60) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:629) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:746) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:256) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2239) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2211) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2191) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:472) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:456) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1972) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1935) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1602) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1400) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:690) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[na:na]
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:61) ~[amqp-client-5.30.0.jar:5.30.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1355) ~[amqp-client-5.30.0.jar:5.30.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1297) ~[amqp-client-5.30.0.jar:5.30.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:676) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:644) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:590) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	... 12 common frames omitted
+
+2026-07-07T22:29:23.851-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:23.862-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:23.877-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.s.a.r.l.SimpleMessageListenerContainer : Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:23.877-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:23.878-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#2-1] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:60) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:629) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:746) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:256) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2239) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2211) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2191) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:472) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:456) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1972) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1935) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1602) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1400) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:690) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[na:na]
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:61) ~[amqp-client-5.30.0.jar:5.30.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1355) ~[amqp-client-5.30.0.jar:5.30.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1297) ~[amqp-client-5.30.0.jar:5.30.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:676) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:644) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:590) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	... 12 common frames omitted
+
+2026-07-07T22:29:23.878-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:23.893-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:23.908-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.s.a.r.l.SimpleMessageListenerContainer : Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:23.909-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:23.924-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#3-1] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:60) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:629) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:746) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:256) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2239) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2211) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2191) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:472) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:456) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1972) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1935) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1602) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1400) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:690) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[na:na]
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:61) ~[amqp-client-5.30.0.jar:5.30.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1355) ~[amqp-client-5.30.0.jar:5.30.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1297) ~[amqp-client-5.30.0.jar:5.30.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:676) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:644) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:590) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	... 12 common frames omitted
+
+2026-07-07T22:29:23.925-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:23.926-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:23.939-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.s.a.r.l.SimpleMessageListenerContainer : Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:23.940-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:23.955-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#4-1] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:60) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:629) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:746) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:256) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2239) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2211) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2191) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:472) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:456) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1972) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1935) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1602) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1400) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:690) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[na:na]
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:61) ~[amqp-client-5.30.0.jar:5.30.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1355) ~[amqp-client-5.30.0.jar:5.30.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1297) ~[amqp-client-5.30.0.jar:5.30.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:676) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:644) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:590) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	... 12 common frames omitted
+
+2026-07-07T22:29:23.956-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:23.987-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:24.003-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] o.s.a.r.l.SimpleMessageListenerContainer : Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:24.004-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:24.034-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#5-1] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:60) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:629) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:746) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:256) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2239) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2211) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2191) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:472) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:456) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1972) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1935) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1602) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1400) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:690) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[na:na]
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:61) ~[amqp-client-5.30.0.jar:5.30.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1355) ~[amqp-client-5.30.0.jar:5.30.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1297) ~[amqp-client-5.30.0.jar:5.30.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:676) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:644) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:590) ~[spring-rabbit-4.1.0.jar:4.1.0]
+	... 12 common frames omitted
+
+2026-07-07T22:29:24.034-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:24.037-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] a.e.utn.frba.NotificacionesApplication   : Started NotificacionesApplication in 0.524 seconds (process running for 31.601)
+2026-07-07T22:29:24.038-03:00  WARN 6084 --- [notificaciones-service] [  restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-07-07T22:29:24.038-03:00  WARN 6084 --- [notificaciones-service] [  restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-07-07T22:29:24.039-03:00  INFO 6084 --- [notificaciones-service] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-07T22:29:28.938-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:28.938-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@7dcaf2a5: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:28.939-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-2] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:28.954-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#1-1] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:28.954-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-1] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@d96e231: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:28.970-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:28.970-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-2] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:28.970-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:28.970-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-2] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:28.985-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#2-1] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:28.985-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-1] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@62c99d03: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:28.985-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-2] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:29.001-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-2] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:29.016-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#3-1] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:29.016-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#2-2] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:29.016-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-1] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@46889e45: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:29.016-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-2] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:29.032-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-2] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:29.048-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#3-2] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:29.048-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-2] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:29.078-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#4-1] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:29.078-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-1] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@401851f2: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:29.078-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-2] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:29.094-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#4-2] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:29.094-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-2] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:29.125-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#5-1] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:29.126-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-1] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@1566eac5: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:29.126-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-2] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:29.141-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#5-2] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:29.141-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-2] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:34.074-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:34.074-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@9e1f742: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:34.075-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-3] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:34.090-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:34.091-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@127fc0a: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:34.091-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#0-3] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:34.091-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-3] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:34.106-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#1-3] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:34.106-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-3] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:34.121-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#2-2] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:34.121-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-2] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@6cfd0018: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:34.137-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-3] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:34.152-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#3-2] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:34.152-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-3] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:34.152-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-2] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@34898498: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:34.167-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#2-3] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:34.167-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-3] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:34.183-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#4-2] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:34.183-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-2] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@7222f990: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:34.183-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#3-3] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:34.183-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-3] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:34.199-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-3] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:34.199-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-3] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:34.200-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#4-3] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:34.200-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-3] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:34.247-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#5-2] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:34.247-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-2] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@abcbc31: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:34.247-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-3] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:34.248-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#5-3] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:34.248-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-3] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:39.252-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#0-3] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:39.252-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#1-3] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:39.252-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-3] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@7cb5a354: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:39.252-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-3] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@2fee9d01: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:39.253-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-4] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:39.267-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#0-4] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:39.267-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-4] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:39.267-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#1-4] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:39.267-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-4] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:39.268-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-4] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:39.299-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#4-3] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:39.299-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#2-3] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:39.299-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#3-3] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:39.299-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-3] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@2dd2f688: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:39.299-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-3] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@6900696d: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:39.299-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-3] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@765f31fa: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:39.300-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-4] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:39.315-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#4-4] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:39.315-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-4] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:39.347-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#2-4] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:39.347-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#5-3] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:39.347-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-4] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:39.347-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-3] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@e079e5a: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:39.348-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#3-4] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:39.348-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-4] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:39.348-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-4] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:39.363-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-4] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:39.363-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-4] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:39.364-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#5-4] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:39.364-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-4] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:44.363-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#0-4] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:44.363-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#1-4] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:44.363-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-4] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@2e6cf39d: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:44.363-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-4] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@7a49fccb: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:44.364-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-5] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:44.378-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-5] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:44.378-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#1-5] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:44.394-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-5] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:44.394-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#0-5] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:44.394-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-5] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:44.441-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#4-4] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:44.441-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-4] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@4eb58023: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:44.442-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-5] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:44.456-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#2-4] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:44.456-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#5-4] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:44.456-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#3-4] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:44.456-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-4] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@6b31bd33: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:44.456-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-4] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@68709e53: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:44.456-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#4-5] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:44.456-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-4] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@20865e30: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:44.457-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-5] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:44.472-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-5] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:44.487-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-5] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:44.487-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#2-5] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:44.503-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-5] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:44.503-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#5-5] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:44.504-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#3-5] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:44.504-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-5] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:44.519-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-5] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:44.520-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-5] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:49.511-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#1-5] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:49.511-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-5] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@4f2601c1: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:49.512-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-6] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:49.527-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#0-5] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:49.527-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#1-6] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:49.527-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-5] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@66847623: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:49.527-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-6] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:49.528-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-6] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:49.528-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#0-6] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:49.528-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-6] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:49.557-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#4-5] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:49.557-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-5] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@42323507: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:49.558-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-6] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:49.573-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#4-6] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:49.573-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-6] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:49.605-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#5-5] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:49.605-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#2-5] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:49.605-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#3-5] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:49.605-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-5] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@1a493621: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:49.605-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-5] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@431e9b25: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:49.605-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-5] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@b5228cd: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:49.606-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-6] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:49.606-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#5-6] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:49.606-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-6] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:49.620-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#2-6] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:49.620-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-6] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:49.622-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#3-6] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:49.622-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-6] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:49.637-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-6] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:49.652-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-6] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:54.605-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#0-6] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:54.605-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#1-6] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:54.605-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-6] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@3e875e43: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:54.605-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-6] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@5898d92f: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:54.606-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-7] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:54.621-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-7] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:54.621-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#0-7] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:54.636-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-7] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:54.636-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#1-7] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:54.637-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-7] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:54.652-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#4-6] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:54.652-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-6] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@4c38088a: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:54.653-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-7] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:54.653-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#4-7] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:54.654-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-7] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:54.715-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#5-6] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:54.715-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-6] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@65c657cc: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:54.716-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-7] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:54.731-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#2-6] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:54.731-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#3-6] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:54.731-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#5-7] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:54.731-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-6] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@2842ec10: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:54.731-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-6] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@434f9ba8: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:54.731-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-7] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:54.732-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-7] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:54.733-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#2-7] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:54.733-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-7] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:54.746-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#3-7] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:54.746-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-7] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:54.746-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-7] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:59.722-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#1-7] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:59.722-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#0-7] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:59.722-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-7] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@4d95c882: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:59.722-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-7] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@3e8e5b7d: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:59.723-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-8] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:59.738-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#0-8] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:59.738-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-8] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:59.754-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#4-7] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:59.754-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-7] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@31b94efa: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:59.769-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-8] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:59.769-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#1-8] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:59.784-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-8] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:59.784-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#4-8] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:59.784-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-8] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:59.800-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-8] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:59.815-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#5-7] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:59.815-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-7] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@548af126: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:59.815-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-8] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:59.831-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#2-7] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:59.831-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#3-7] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:29:59.831-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#5-8] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:59.831-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-7] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@426a024d: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:59.831-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-7] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@614a603b: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:29:59.831-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-8] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:59.862-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-8] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:59.878-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#2-8] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:59.878-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-8] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:59.909-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#3-8] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:29:59.909-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-8] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:29:59.925-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-8] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:30:04.871-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#0-8] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:30:04.872-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-8] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@6ecc1ac0: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:30:04.873-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-9] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:30:04.887-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#1-8] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:30:04.887-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#0-9] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:30:04.887-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-8] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@49273ec7: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:30:04.887-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#0-9] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:30:04.903-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#4-8] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:30:04.903-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-9] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:30:04.903-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-8] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@22cc60c2: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:30:04.919-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#1-9] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:30:04.919-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-9] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:30:04.934-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#4-9] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:30:04.934-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#1-9] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:30:04.949-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#5-8] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:30:04.949-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#4-9] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:30:04.949-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-8] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@4e6f002b: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:30:04.965-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-9] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:30:04.981-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#5-9] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:30:04.981-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#5-9] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:30:05.013-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#2-8] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:30:05.013-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-8] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@20a98435: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:30:05.014-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-9] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:30:05.028-03:00  WARN 6084 --- [notificaciones-service] [ntContainer#3-8] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: getsockopt
+2026-07-07T22:30:05.028-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-8] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@19c2b549: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2026-07-07T22:30:05.028-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#2-9] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:30:05.028-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#2-9] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:30:05.044-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-9] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-07-07T22:30:05.059-03:00 ERROR 6084 --- [notificaciones-service] [ntContainer#3-9] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2026-07-07T22:30:05.059-03:00  INFO 6084 --- [notificaciones-service] [ntContainer#3-9] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:15 min
+[INFO] Finished at: 2026-07-07T22:30:05-03:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:4.1.0:run (default-cli) on project notificaciones-service: Process terminated with exit code: -1 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

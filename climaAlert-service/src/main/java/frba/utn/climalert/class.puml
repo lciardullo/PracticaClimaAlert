@@ -1,0 +1,74 @@
+@startuml
+
+interface ClimaAlertAdapter {
+    + solicitarRealTime(localidad : Localidad) : Clima
+}
+
+class WeatherApiAdapter implements ClimaAlertAdapter {
+    - weatherApiClient : WeatherApiClient
+    + solicitarRealTime(localidad : Localidad) : Clima
+}
+
+class WeatherApiClient {
+    + getCurrentWeather(localidad : Localidad) : Clima
+}
+
+interface NotificacionAdapter {
+    + enviar(notificacion : Notificacion) : void
+}
+
+class NotificacionApiAdapter implements NotificacionAdapter {
+    - notificationClient : NotificationClient
+    + enviar(notificacion : Notificacion) : void
+}
+
+class NotificationClient {
+    + enviarNotificacion(notificacion : Notificacion) : void
+}
+
+class Clima {
+    - localidad : Localidad
+    - temperatura : Temperatura
+}
+
+class Temperatura {
+    - temperatura : double
+    - condicion : String
+    - vientoKH : double
+    - humedad : double
+    - presion : double
+}
+
+class Localidad {
+    - nombre : String
+    - region : String
+    - pais : String
+}
+
+class Alerta {
+    - temperaturaLimite : double
+    - humedadLimite : double
+    + isAlerta(clima : Clima) : Boolean
+}
+
+class Notificacion {
+    - destinatarios : List<String>
+    - asunto : String
+    - mensaje : String
+    - clima : Clima
+}
+
+
+
+WeatherApiAdapter --> WeatherApiClient
+NotificacionApiAdapter --> NotificationClient
+
+ClimaAlertAdapter ..> Clima
+NotificacionAdapter ..> Notificacion
+
+Clima --> Temperatura
+Clima --> Localidad
+Alerta ..> Clima
+Notificacion --> Clima
+
+@enduml

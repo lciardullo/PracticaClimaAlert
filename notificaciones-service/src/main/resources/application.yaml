@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: notificaciones-service
+  messages:
+    basename: messages
+    encoding: UTF-8
+
+server:
+  port: 8080
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html

@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: climaAlert-service
+  config:
+    import:
+      - optional:file:.env[.properties]
+      - optional:file:../.env[.properties]
+
+server:
+  port: 8081
+
+services:
+  weather:
+    base-url: ${WEATHER_API_URL:https://api.weatherapi.com/v1/current.json}
+    api-key: ${API_KEY_WEATHER:}
+    lang: ${WEATHER_API_LANG:es}
+  notification:
+    base-url: ${NOTIFICATION_SERVICE_URL:http://localhost:8080/api/v1/notificaciones}
+    tipo: ${NOTIFICATION_TIPO:ALERTA_CLIMATICA}
