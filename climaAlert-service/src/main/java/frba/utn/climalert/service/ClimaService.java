@@ -13,5 +13,7 @@ public interface ClimaService {
 
   Clima registrarClimaActual();
 
+  Clima registrarClimaActualYNotificar();
+
   Optional<Clima> procesarUltimoClima();
 }

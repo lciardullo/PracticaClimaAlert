@@ -32,19 +32,40 @@ public final class EnvProvider {
     }
 
     private static Dotenv loadDotenv() {
-        Dotenv dotenv = Dotenv.configure()
-                .ignoreIfMissing()
-                .load();
-
-        if (!dotenv.entries().iterator().hasNext()) {
-            dotenv = Dotenv.configure()
-                    .directory("notificaciones-service")
-                    .ignoreIfMissing()
-                    .load();
+        Dotenv dotenv = loadFromCurrentDirectory();
+        if (hasEntries(dotenv)) {
+            return dotenv;
         }
 
-        return dotenv;
+        dotenv = loadFromDirectory("..");
+        if (hasEntries(dotenv)) {
+            return dotenv;
+        }
+
+        dotenv = loadFromDirectory("notificaciones-service");
+        if (hasEntries(dotenv)) {
+            return dotenv;
+        }
+
+        return Dotenv.configure()
+                .ignoreIfMissing()
+                .load();
     }
 
-}
+    private static Dotenv loadFromCurrentDirectory() {
+        return Dotenv.configure()
+                .ignoreIfMissing()
+                .load();
+    }
 
+    private static Dotenv loadFromDirectory(String directory) {
+        return Dotenv.configure()
+                .directory(directory)
+                .ignoreIfMissing()
+                .load();
+    }
+
+    private static boolean hasEntries(Dotenv dotenv) {
+        return dotenv.entries().iterator().hasNext();
+    }
+}

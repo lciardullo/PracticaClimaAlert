@@ -62,6 +62,11 @@ public class ClimaServiceImp implements ClimaService {
   }
 
   @Override
+  public Clima registrarClimaActualYNotificar() {
+    return consultarYNotificar(LOCALIDAD_FIJA, DESTINATARIOS_ALERTA);
+  }
+
+  @Override
   public Optional<Clima> procesarUltimoClima() {
     Optional<Clima> climaOpt = climaRepository.findLatest();
     if (climaOpt.isEmpty()) {
