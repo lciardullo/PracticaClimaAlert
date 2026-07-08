@@ -22,10 +22,12 @@ localmente para registro histórico y análisis posterior.
  Al generarse una alerta, el Sistema deberá enviar un correo a los siguientes destinatarios:
  - admin@clima.com
  - emergencias@clima.com
-  - meteorologia@clima.com
+ - meteorologia@clima.com
 
 **El correo deberá incluir el detalle completo del clima.**
 
+# IMPORTANTE
+Reutilice el notificador del tp anual ya que fue ideado para ser reutilizado.
 ## Diagrama de clases de climaAlert-service
 ![img.png](img.png)
 
