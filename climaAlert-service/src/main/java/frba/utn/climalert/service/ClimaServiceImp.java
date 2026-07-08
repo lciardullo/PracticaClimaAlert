@@ -6,6 +6,7 @@ import frba.utn.climalert.domain.clima.Alerta;
 import frba.utn.climalert.domain.clima.Clima;
 import frba.utn.climalert.domain.clima.Localidad;
 import frba.utn.climalert.domain.notificacion.Notificacion;
+import frba.utn.climalert.dto.clima.ClimaDto;
 import frba.utn.climalert.repository.clima.climaRepository;
 import org.springframework.stereotype.Service;
 
@@ -16,7 +17,7 @@ import java.util.Optional;
 public class ClimaServiceImp implements ClimaService {
   private static final double TEMPERATURA_LIMITE = 35.0;
   private static final double HUMEDAD_LIMITE = 60.0;
-  private static final Localidad LOCALIDAD_FIJA = new Localidad("CABA", "Buenos Aires", "Argentina");
+  private static final Localidad LOCALIDAD_FIJA = new Localidad("Buenos Aires", "Distrito Federal", "Argentina");
   private static final List<String> DESTINATARIOS_ALERTA = List.of(
       "admin@clima.com",
       "emergencias@clima.com",
@@ -57,13 +58,13 @@ public class ClimaServiceImp implements ClimaService {
   }
 
   @Override
-  public Clima registrarClimaActual() {
-    return consultarClima(LOCALIDAD_FIJA);
+  public ClimaDto registrarClimaActual() {
+    return ClimaDto.toClimaResponse(consultarClima(LOCALIDAD_FIJA));
   }
 
   @Override
-  public Clima registrarClimaActualYNotificar() {
-    return consultarYNotificar(LOCALIDAD_FIJA, DESTINATARIOS_ALERTA);
+  public ClimaDto registrarClimaActualYNotificar() {
+    return ClimaDto.toClimaResponse(consultarYNotificar(LOCALIDAD_FIJA, DESTINATARIOS_ALERTA));
   }
 
   @Override

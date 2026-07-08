@@ -2,6 +2,7 @@ package frba.utn.climalert.service;
 
 import frba.utn.climalert.domain.clima.Clima;
 import frba.utn.climalert.domain.clima.Localidad;
+import frba.utn.climalert.dto.clima.ClimaDto;
 
 import java.util.List;
 import java.util.Optional;
@@ -11,9 +12,9 @@ public interface ClimaService {
 
   Clima consultarYNotificar(Localidad localidad, List<String> destinatarios);
 
-  Clima registrarClimaActual();
+  ClimaDto registrarClimaActual();
 
-  Clima registrarClimaActualYNotificar();
+  ClimaDto registrarClimaActualYNotificar();
 
   Optional<Clima> procesarUltimoClima();
 }

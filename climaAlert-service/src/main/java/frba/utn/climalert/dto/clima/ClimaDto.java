@@ -7,7 +7,7 @@ public record ClimaDto(
     LocalidadDto localidad,
     TemperaturaDto temperatura
 ) {
-  public static ClimaDto fromDomain(Clima clima) {
+  public static ClimaDto toClimaResponse(Clima clima) {
     return new ClimaDto(
         clima.getId(),
         clima.getLocalidad() == null ? null : new LocalidadDto(

@@ -18,11 +18,11 @@ public class ClimaController {
 
   @GetMapping("/actual")
   public ClimaDto consultarClimaActual() {
-    return ClimaDto.fromDomain(climaService.registrarClimaActual());
+    return climaService.registrarClimaActual();
   }
 
   @PostMapping("/alerta")
   public ClimaDto consultarClimaYProcesarAlerta() {
-    return ClimaDto.fromDomain(climaService.registrarClimaActualYNotificar());
+    return climaService.registrarClimaActualYNotificar();
   }
 }
